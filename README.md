@@ -12,3 +12,10 @@ Currently the extension requires you to reload the window to bypass the content 
 Possible fix: Add DomMutation watcher?
 
 Cannot download the original image. The download button links to a url that will redirect you to the original image on their image host with the JWT that gives authorization to download the original image. Issue is when you are not logged in, the download link will not redirect you and instead give a 404 error. So I cannot grab the correct JWT unless I can figure out how to make the redirect succeed while not logged in.
+
+# Installation
+1. On Firefox go to about:debugging
+2. Click on "This Firefox"
+3. Click load a temporary extension and load either DeviantArtBypass.js or the manifest.json file
+
+The extension will be removed upon closing the browser, you can google how to make it permanent. AKA downloading the developer firefox browser
