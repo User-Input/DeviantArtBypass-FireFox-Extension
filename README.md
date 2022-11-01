@@ -1,7 +1,7 @@
 # DeviantArtBypass-FireFox-Extension
 Bypass log in requirement to view mature content on DeviantArt
 
-This does NOT bypass any paywalls or any other walls. It also does not unblock the download button(Yet).
+This does NOT bypass any paywalls, Watchers only, or any other walls. It also does not unblock the download button(Yet).
 
 What this does it when it finds a mature content block it removes the mature content warning/block element and then replaces the blurred image with the image from their image host with the maximum resolution they have allowed via the limits within the JWT found in the blurred image url.
 
