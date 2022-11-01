@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "DeviantArtBypass",
+  "version": "1.0",
+
+  "description": "Bypasses the Mature Content filter on DeviantArt.com without signing in.",
+
+  "icons": {
+    "192": "icons/192.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.deviantart.com/*/art/*"],
+      "js": ["jquery-3.6.1.js", "DeviantArtBypass.js"]
+    }
+  ]
+}
