@@ -8,9 +8,6 @@ What this does it when it finds a mature content block it removes the mature con
 # Issues
 I cannot get the original resolution because DeviantArt usually limits the width to 1280 and I cannot bypass this for now. The quality of the image is still very good and should be fine. Especially since it will be scaled to match the image viewer.
 
-Currently the extension requires you to reload the window to bypass the content block of another image. This is because I don't know what I am doing. I assume DeviantArt dynamicly the DOM instead of loading a new page or something. 
-Possible fix: Add DomMutation watcher?
-
 Cannot download the original image. The download button links to a url that will redirect you to the original image on their image host with the JWT that gives authorization to download the original image. Issue is when you are not logged in, the download link will not redirect you and instead give a 404 error. So I cannot grab the correct JWT unless I can figure out how to make the redirect succeed while not logged in.
 
 # Installation
